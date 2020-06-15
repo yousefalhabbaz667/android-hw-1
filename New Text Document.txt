@@ -1,0 +1,27 @@
+public class Main
+{
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+	double y = 50.3;
+    gardeGenarator(y); }
+    
+     public static void gardeGenarator(double y){
+         
+    if(y >= 90) 
+    {
+        
+       System.out.println("A");
+                
+    }else if(y<=90 && y >= 80){
+        System.out.println("b");
+        
+    }else if(y<80 && y >= 70){
+        System.out.println("C");
+        
+    }else if(y<70 && y >= 60){
+        System.out.println("d");
+    
+     }else if(y<60 && y >= 50){
+        System.out.println("f");
+}
+	}
